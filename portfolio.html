@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio web xd</title>
+
+    <link rel="shortcut icon" href="resources/logo.svg" type="image/svg">
+    <link rel="stylesheet" href="CSS/site.css">
+    
+    <!-- css.gg -->
+    <link href='https://css.gg/css' rel='stylesheet'>
+    
+    <!-- UNPKG -->
+    <link href='https://unpkg.com/css.gg/icons/all.css' rel='stylesheet'>
+    
+    <!-- JSDelivr -->
+    <link href='https://cdn.jsdelivr.net/npm/css.gg/icons/all.css' rel='stylesheet'>
+    
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-content">
+        <aside>
+            <div class="profile">
+                <img src="resources/UserAvatar.jpg" id="photo-profile" class="my-photo">
+        
+                <div>
+                    <h1 class="title">Jorge Torres Romero</h1>
+                    <div class="badge-profile">Alumno</div>
+
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100013334953211" target="_blank"><i class="gg-facebook"></i></a>
+                        <a href="https://x.com/JorgeTR2404" target="_blank"><i class="gg-twitter"></i></a>
+                        <a href="https://www.youtube.com/@jorgetorresromero9095" target="_blank"><i class="gg-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i>&nbsp;&nbsp;14 de Enero del 2025</li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i>&nbsp;&nbsp;Puebla, Puebla</li>
+                        <li class="contacts-block-item"><i class="gg-mail"></i>&nbsp;&nbsp;<a href="mailto:jtorresromero30@gmail.com">jtorresromero30@gmail.com</a></li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;&nbsp;+52 22-28-72-04-08</li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;&nbsp;+52 22-28-72-04-08</li>
+                    </ul>
+                    <a href="#" class="btn">Download CV</a>
+                </div>
+            </div>
+        </aside>
+        <section class="resume">
+            <div>
+                <h2 class="title bordered">Portafolio</h2>
+                <div class="portfolio">
+                    <img src="https://m.media-amazon.com/images/I/51LxhhfcT1L._AC_UF894,1000_QL80_.jpg" onclick="showImage(this)"/>
+                    <img src="https://i.pinimg.com/736x/2d/5d/f7/2d5df7f27aa648fc64d7c023ca7b2b9b.jpg" onclick="showImage(this)">
+                    <img src="https://i.pinimg.com/originals/ed/15/16/ed1516162ae3260557aea90892aabc92.jpg" onclick="showImage(this)">
+                    <img src="https://th.bing.com/th/id/OIP.OjpHKwEyOdMQuUB2iOF4ZAHaLq?rs=1&pid=ImgDetMain" onclick="showImage(this)">
+                    <img src="https://i.pinimg.com/originals/e4/51/35/e45135e7d56c986a7e74cb8c0e27e986.jpg" onclick="showImage(this)">
+                    <img src="https://th.bing.com/th/id/R.9762303698d797445ad54ac381db9c6d?rik=IgH1sOGLaOsRdg&riu=http%3a%2f%2fimages.wikia.com%2fpowerrangers%2fimages%2f5%2f50%2fGold_ranger.png&ehk=HwLYz7s6y%2fEyFvXRF%2bvrSZgbnTBrlbZSkYswpOoB4m8%3d&risl=&pid=ImgRaw&r=0" onclick="showImage(this)">
+                </div>
+                <div class="modal" id="preview" >
+                    <i class="gg-close" onclick="cerrarModal()"></i>
+                </div>
+                
+            </div>
+
+            <header>
+                <div class="menu-circle">
+                    <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+                </div>
+                <div class="inner-menu js-menu">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="Index.html">Acerca de...</a></li>
+                        <li class="nav-item"><a href="portfolio.html">Portafolio</a></li>
+                    </ul>
+                </div>
+            </header>
+            <div>
+                <h2 class="title bordered">Acerca de mi</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellendus dolore alias commodi. Enim architecto nesciunt sunt commodi sapiente? Illum porro quam veritatis tempora laboriosam omnis, fugit culpa mollitia minima!
+                            Minus, hic ducimus? Reprehenderit quidem sint voluptas porro adipisci officia. Earum, excepturi deleniti? Vitae, consequatur, in autem soluta accusantium, ipsum mollitia nam molestiae qui officia alias. Tenetur, aliquid? Necessitatibus, assumenda!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellendus dolore alias commodi. Enim architecto nesciunt sunt commodi sapiente? Illum porro quam veritatis tempora laboriosam omnis, fugit culpa mollitia minima!
+                            Minus, hic ducimus? Reprehenderit quidem sint voluptas porro adipisci officia. Earum, excepturi deleniti? Vitae, consequatur, in autem soluta accusantium, ipsum mollitia nam molestiae qui officia alias. Tenetur, aliquid? Necessitatibus, assumenda!
+                </p>
+            </div>
+            <div class="services-content">
+                <h2>Mis habilidades</h2>
+                <div class="my-services">
+                    <div>
+                        <span class="gg-pen"></span>
+                        <div>
+                            <h3>Habilidad 1</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellendus dolore alias commodi. Enim architecto nesciunt sunt commodi sapiente? Illum porro quam veritatis tempora laboriosam omnis, fugit culpa mollitia minima!
+                            Minus, hic ducimus? Reprehenderit quidem sint voluptas porro adipisci officia. Earum, excepturi deleniti? Vitae, consequatur, in autem soluta accusantium, ipsum mollitia nam molestiae qui officia alias. Tenetur, aliquid? Necessitatibus, assumenda!
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="gg-pen"></span>
+                        <div>
+                            <h3>Habilidad 2</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellendus dolore alias commodi. Enim architecto nesciunt sunt commodi sapiente? Illum porro quam veritatis tempora laboriosam omnis, fugit culpa mollitia minima!
+                            Minus, hic ducimus? Reprehenderit quidem sint voluptas porro adipisci officia. Earum, excepturi deleniti? Vitae, consequatur, in autem soluta accusantium, ipsum mollitia nam molestiae qui officia alias. Tenetur, aliquid? Necessitatibus, assumenda!
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="gg-pen"></span>
+                        <div>
+                            <h3>Habilidad 3</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellendus dolore alias commodi. Enim architecto nesciunt sunt commodi sapiente? Illum porro quam veritatis tempora laboriosam omnis, fugit culpa mollitia minima!
+                            Minus, hic ducimus? Reprehenderit quidem sint voluptas porro adipisci officia. Earum, excepturi deleniti? Vitae, consequatur, in autem soluta accusantium, ipsum mollitia nam molestiae qui officia alias. Tenetur, aliquid? Necessitatibus, assumenda!
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="gg-pen"></span>
+                        <div>
+                            <h3>Habilidad 4</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellendus dolore alias commodi. Enim architecto nesciunt sunt commodi sapiente? Illum porro quam veritatis tempora laboriosam omnis, fugit culpa mollitia minima!
+                            Minus, hic ducimus? Reprehenderit quidem sint voluptas porro adipisci officia. Earum, excepturi deleniti? Vitae, consequatur, in autem soluta accusantium, ipsum mollitia nam molestiae qui officia alias. Tenetur, aliquid? Necessitatibus, assumenda!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-content">
+                <h2>Resumen</h2>
+                <div>
+                    <div>
+                        <h2><i class="fa fa-user-graduate"></i> Educación</h2>
+                        <div class="timeline">
+                            <!-- ITEM -->
+                             <article class="timeline_item">
+                                <h5 class="title title--s timeline_title">Universidad</h5>
+                                <span class="timeline_period">2022-2025</span>
+                                <p class="timeline_description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellendus dolore alias commodi. Enim architecto nesciunt sunt commodi sapiente? Illum porro quam veritatis tempora laboriosam omnis, fugit culpa mollitia minima!
+                            Minus, hic ducimus? Reprehenderit quidem sint voluptas porro adipisci officia. Earum, excepturi deleniti? Vitae, consequatur, in autem soluta accusantium, ipsum mollitia nam molestiae qui officia alias. Tenetur, aliquid? Necessitatibus, assumenda!
+                                </p>
+                             </article>
+
+                             <article class="timeline_item">
+                                <h5 class="title title--s timeline_title">Curso</h5>
+                                <span class="timeline_period">2022-2025</span>
+                                <p class="timeline_description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellendus dolore alias commodi. Enim architecto nesciunt sunt commodi sapiente? Illum porro quam veritatis tempora laboriosam omnis, fugit culpa mollitia minima!
+                            Minus, hic ducimus? Reprehenderit quidem sint voluptas porro adipisci officia. Earum, excepturi deleniti? Vitae, consequatur, in autem soluta accusantium, ipsum mollitia nam molestiae qui officia alias. Tenetur, aliquid? Necessitatibus, assumenda!
+                                </p>
+                             </article>
+                             <article class="timeline_item">
+                                <h5 class="title title--s timeline_title">Prepa</h5>
+                                <span class="timeline_period">2022-2025</span>
+                                <p class="timeline_description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellendus dolore alias commodi. Enim architecto nesciunt sunt commodi sapiente? Illum porro quam veritatis tempora laboriosam omnis, fugit culpa mollitia minima!
+                            Minus, hic ducimus? Reprehenderit quidem sint voluptas porro adipisci officia. Earum, excepturi deleniti? Vitae, consequatur, in autem soluta accusantium, ipsum mollitia nam molestiae qui officia alias. Tenetur, aliquid? Necessitatibus, assumenda!
+                                </p>
+                             </article>
+                        </div>
+                    </div>
+                    <div>
+                        <h2><i class="fa fa-user-graduate"></i>Mi Experiencia</h2>
+                        <div class="timeline">
+                            <article class="timeline_item">
+                                <h5 class="title title--s timeline_title">CINTAS Y ELASTICOS EL ROBLE</h5>
+                                <span class="timeline_period">2023</span>
+                                <p class="timeline_description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellendus dolore alias commodi. Enim architecto nesciunt sunt commodi sapiente? Illum porro quam veritatis tempora laboriosam omnis, fugit culpa mollitia minima!
+                                    Minus, hic ducimus? Reprehenderit quidem sint voluptas porro adipisci officia. Earum, excepturi deleniti? Vitae, consequatur, in autem soluta accusantium, ipsum mollitia nam molestiae qui officia alias. Tenetur, aliquid? Necessitatibus, assumenda!
+                                </p>
+                            </article>
+        
+                            <article class="timeline_item">
+                                <h5 class="title title--s timeline_title">GRUPO SINTESIS</h5>
+                                <span class="timeline_period">2024</span>
+                                <p class="timeline_description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellendus dolore alias commodi. Enim architecto nesciunt sunt commodi sapiente? Illum porro quam veritatis tempora laboriosam omnis, fugit culpa mollitia minima!
+                                    Minus, hic ducimus? Reprehenderit quidem sint voluptas porro adipisci officia. Earum, excepturi deleniti? Vitae, consequatur, in autem soluta accusantium, ipsum mollitia nam molestiae qui officia alias. Tenetur, aliquid? Necessitatibus, assumenda!
+                                </p>
+                            </article>
+        
+                            <article class="timeline_item">
+                                <h5 class="title title--s timeline_title">POR VER</h5>
+                                <span class="timeline_period">2024</span>
+                                <p class="timeline_description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellendus dolore alias commodi. Enim architecto nesciunt sunt commodi sapiente? Illum porro quam veritatis tempora laboriosam omnis, fugit culpa mollitia minima!
+                                    Minus, hic ducimus? Reprehenderit quidem sint voluptas porro adipisci officia. Earum, excepturi deleniti? Vitae, consequatur, in autem soluta accusantium, ipsum mollitia nam molestiae qui officia alias. Tenetur, aliquid? Necessitatibus, assumenda!
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>Autor: Jorge Torres Romero</footer>
+    <div id="copyright" style="display: none;">2025 Jorge estuvo aqui xd.</div>
+
+    <script src="JS/site.js"></script>
+</body>
+</html>
